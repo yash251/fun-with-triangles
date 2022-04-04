@@ -19,24 +19,30 @@
 
     <h1 class="heading">Triangle Quiz</h1>
 
-    <form class="quiz-form">
+    <form class="container quiz-form">
         <div class="question-container">
-            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
             <label><input type="radio" name="question1" value="45°" />45°</label>
             <label><input type="radio" name="question1" value="90°" />90°</label>
             <label><input type="radio" name="question1" value="60°" />60°</label>
         </div>
         <div class="question-container">
-            <p>If a triangle has an angle of 90°, what is it called?</p>
+            <p>2. If a triangle has an angle of 90°, what is it called?</p>
             <label><input type="radio" name="question2" value="obtuse" />obtuse</label>
             <label><input type="radio" name="question2" value="acute" />acute</label>
             <label><input type="radio" name="question2" value="right angled" />right angled</label>
+            <div class="question-container">
+                <p>3. The perimeter of a equilateral triangle is 15cm. What is the length of one side?</p>
+                <label><input type="radio" name="question3" value="5" />5</label>
+                <label><input type="radio" name="question3" value="3" />3</label>
+                <label><input type="radio" name="question3" value="15" />15</label>
+            </div>
         </div>
     </form>
 
-    <button id="submit-answer">Submit</button>
+    <button class="css-btn" id="submit-answer">Submit</button>
 
-    <div id="output"></div>
+    <div class="css-output" id="output"></div>
 
     <script src="quiz.js" type="text/javascript"></script>
 </body>
