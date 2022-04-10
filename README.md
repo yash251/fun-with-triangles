@@ -5,3 +5,4 @@
 - Similar quiz on Isosceles, Equilateral.
 - Ask them to enter two legs and you tell them the hypotenuse.
 - Calculator for area of triangle
+Play with triangles [here](https://yashjagtap-fun-with-triangles.netlify.app/)
